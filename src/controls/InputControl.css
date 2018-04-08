@@ -1,0 +1,39 @@
+.formGroup {
+  position: relative;
+  margin-bottom: 10px;  
+}
+
+.formInput {
+  width: 100%;  
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+  outline: none;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ccc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  height: 35px;
+  padding: 2px;  
+}
+
+
+.formLabel {
+  font-size: 15px;
+  color: #666;
+}
+
+.formInput:focus {
+  /* box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81,203,238,1); */
+  font-size: 15px;
+  padding: 2px;
+  border-bottom: 1px solid darkblue;
+}
+
+.formInput:focus + label {
+  color: darkblue;
+}
+

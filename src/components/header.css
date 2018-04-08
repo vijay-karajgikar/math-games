@@ -1,0 +1,31 @@
+.containerDiv {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.linksList {
+  list-style-type: none;
+  display: inline;
+  padding: 3px;
+  margin-right: 5px;
+}
+
+.linksList li {
+  display: inline;
+}
+
+.containerDiv li {
+  list-style-type: none;
+  padding: 15px 12px;
+}
+
+.normal {
+  text-decoration: none;
+  padding: 10px 12px;
+  color: white;
+  cursor: pointer;
+}
